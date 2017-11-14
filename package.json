@@ -1,0 +1,35 @@
+{
+  "name": "totalfantasyonline",
+  "version": "0.0.1",
+  "description": "A 2D MMORPG based on TheManaWorld's graphics",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/totalfantasyonline/server.git"
+  },
+  "keywords": [
+    "game",
+    "2D",
+    "mmo",
+    "rpg",
+    "mmorpg",
+    "Themanaworld",
+    "multiplayergame"
+  ],
+  "author": "BronzeEagle",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/totalfantasyonline/server/issues"
+  },
+  "homepage": "https://github.com/totalfantasyonline/server#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "redis": "^2.8.0",
+    "socket.io": "^2.0.4"
+  }
+}
